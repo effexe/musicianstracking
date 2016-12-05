@@ -6,7 +6,7 @@
 * {
 	font-family: 'Roboto';
 	margin: 0;
-    padding: 0;
+  padding: 0;
 }
 
 .container {
@@ -27,8 +27,8 @@
 .textwrapper {
     padding-top: 17.5%;
     padding-bottom: 23%;
-    padding-left: 23%;
-    padding-right: 23%;
+    padding-left: 20%;
+    padding-right: 20%;
     border-style: none;
 }
 
@@ -69,11 +69,12 @@
     transition-duration: 0.3s;
 }
 
-div.transbox {
+.transbox {
   background-color: #ffffff;
   opacity: 0.6;
   filter: alpha(opacity=60); /* For IE8 and earlier */
-  padding: 40px 15px;
+  padding: 40px 40px;
+  padding-left: 45px;
 }
 
 </style>
@@ -83,7 +84,7 @@ div.transbox {
     <div class="textwrapper">
       <div class="transbox">
         <h1>Musicians Tracking Database</h1>
-        <p>A new way to track the places that you've been, and find artists that you know and love! </p>
+        <h3>A new way to track the places that you've been, and find artists that you know and love! </h3>
       </div>
       <a href="userTasks.php" class="first_button">I am an User</a>
       <a href="venueTasks.php" class="button">I am a Venue</a>
